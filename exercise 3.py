@@ -1,3 +1,14 @@
+
+a=['hello',5,'john']
+def new_list(a):
+    b=['Element','start','finish']
+    a.insert(0,b[0])
+    a.insert(1,b[1])
+    a.insert(len(a),b[-1])
+    print(a)
+new_list(a)
+
+
 l = ['x', 5, 'John', 'honey']
 lenght = len(l)
 def new_dict(lenght):
